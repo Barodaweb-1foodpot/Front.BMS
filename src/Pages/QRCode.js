@@ -94,13 +94,12 @@ export const QRData = () => {
                                 <Col  md={6} lg={6}>
                                     <p>
                                         <span className="fw-bold">Mfg. Date: </span> {data.DOM} <br />
-                                        <span className="fw-bold">(YYYY-MM-DD)</span>
+                                       
                                     </p>
                                 </Col>
                                 <Col  md={6} lg={6}>
                                     <p>
                                         <span className="fw-bold">Exp/Retest Date: </span> {data.DOE} <br />
-                                        <span className="fw-bold">(YYYY-MM-DD)</span>
                                     </p>
                                 </Col>
                             
@@ -133,7 +132,7 @@ export const QRData = () => {
                                 </Col>
                              <Col sm={12} lg={12}>
                                 <p>
-                                    <span className="fw-bold">Serial shipping container code: </span> {data.containerCode}
+                                    <span className="fw-bold">Serial shipping container code (Drum Number): </span> {data.containerCode}
                                 </p>
                                 </Col>
                                 <Col>
