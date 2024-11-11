@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  height: 100%;
+
+  /* add grey color border */
+  /* border: 2px dotted #000; */
+  display: flex;
+  flex-direction: column;
+}
+
+.border-custom {
+  border: 3px solid #8c8383;
+}
+
+.border-custom-dashed {
+  margin: 5px;
+  border: 3px dashed #8c8383;
+}
+
+.content {
+  padding: 20px;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.img-footer {
+  border-top: 2px solid #8c8383;
+  margin-top: 15px;
+ 
+}
+
+.content p {
+  font-size: 15px;
+}
