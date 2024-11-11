@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom"
 
 import { Container, Row, Col } from 'reactstrap';
 import { Puff } from "react-loader-spinner";
-import logo from "../assets/images/image (6).png"
+import logo from "../assets/images/logo-new.png"
 
 export const QRData = () => {
 
